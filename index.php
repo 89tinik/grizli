@@ -54,7 +54,91 @@ if (isset($_POST['number'])) {
 <div class="container my-5">
     <h1><?= $output ?></h1>
 </div>
+<div class="container">
+    <h3>Korzyści ze współpracy z nami</h3>
+</div>
+<div class="container d-flex benefits-wrap d-none d-xl-flex d-lg-flex">
+    <div class="benefit">
+        <img src="assets/icon.png" alt="" title="">
+        <p>Przechowywanie towarów ponadgabarytowych</p>
+        <a href="#">Opis</a>
+    </div>
+    <div class="benefit">
+        <img src="assets/icon.png" alt="" title="">
+        <p>Przechowywanie towarów ponadgabarytowych</p>
+        <a href="#">Opis</a>
+    </div>
+    <div class="benefit">
+        <img src="assets/icon.png" alt="" title="">
+        <p>Przechowywanie towarów ponadgabarytowych</p>
+        <a href="#">Opis</a>
+    </div>
+    <div class="benefit">
+        <img src="assets/icon.png" alt="" title="">
+        <p>Przechowywanie towarów ponadgabarytowych</p>
+        <a href="#">Opis</a>
+    </div>
+    <div class="benefit">
+        <img src="assets/icon.png" alt="" title="">
+        <p>Przechowywanie towarów ponadgabarytowych</p>
+        <a href="#">Opis</a>
+    </div>
+    <div class="benefit">
+        <img src="assets/icon.png" alt="" title="">
+        <p>Przechowywanie towarów ponadgabarytowych</p>
+        <a href="#">Opis</a>
+    </div>
+    <div class="benefit">
+        <img src="assets/icon.png" alt="" title="">
+        <p>Przechowywanie towarów ponadgabarytowych</p>
+        <a href="#">Opis</a>
+    </div>
+    <div class="benefit">
+        <img src="assets/icon.png" alt="" title="">
+        <p>Przechowywanie towarów ponadgabarytowych</p>
+        <a href="#">Opis</a>
+    </div>
+</div>
 
+
+<div id="carouselExampleSlidesOnly" class="carousel slide d-lg-none" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="benefit carousel-item active">
+            <img src="assets/icon.png" alt="" title="">
+            <p>Przechowywanie towarów ponadgabarytowych</p>
+            <a href="#">Opis</a>
+        </div>
+        <div class="benefit carousel-item">
+            <img src="assets/icon.png" alt="" title="">
+            <p>Przechowywanie towarów ponadgabarytowych</p>
+            <a href="#">Opis</a>
+        </div>
+        <div class="benefit carousel-item">
+            <img src="assets/icon.png" alt="" title="">
+            <p>Przechowywanie towarów ponadgabarytowych</p>
+            <a href="#">Opis</a>
+        </div>
+        <div class="benefit carousel-item">
+            <img src="assets/icon.png" alt="" title="">
+            <p>Przechowywanie towarów ponadgabarytowych</p>
+            <a href="#">Opis</a>
+        </div>
+        <div class="benefit carousel-item">
+            <img src="assets/icon.png" alt="" title="">
+            <p>Przechowywanie towarów ponadgabarytowych</p>
+            <a href="#">Opis</a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+    <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+        <div class="row">
+
+        </div>
+    </div>
+</footer>
 
 <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
      tabindex="-1">
